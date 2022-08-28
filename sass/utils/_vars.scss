@@ -4,3 +4,9 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
 }
+@mixin font($fw: 500, $fs: 36, $lh: 1.17, $ls: 0.03em) {
+  font-weight: $fw;
+  font-size: $fs + px;
+  line-height: $lh;
+  letter-spacing: $ls;
+}
