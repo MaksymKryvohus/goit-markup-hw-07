@@ -20,7 +20,7 @@
                 <a href="/index.html" lang="en" class="logo header__logo">Web<span class="logo__item">Studio</span></a>
                 <ul class="navigation__list list">
                     <li>
-                        <a href="/index.html" class="navigation__link ">Студія</a>
+                        <a href="./index.html" class="navigation__link ">Студія</a>
                     </li>
                     <li>
                         <a href="./portfolio.html" class="navigation__link current">Портфоліо</a>
@@ -46,15 +46,15 @@
             <div class="container">
                 <h1 class="visually-hidden">Портфоліо</h1>
                 <ul class="portfolio-filter list">
-                    <li class="portfolio-item-btn"><button type="button" class="portfolio-btn btn">Все</button>
+                    <li class="portfolio-item-btn"><button type="button" class="portfolio-btn">Все</button>
                     </li>
-                    <li class="portfolio-item-btn"><button type="button" class="portfolio-btn btn">Веб-сайти</button>
+                    <li class="portfolio-item-btn"><button type="button" class="portfolio-btn">Веб-сайти</button>
                     </li>
-                    <li class="portfolio-item-btn"><button type="button" class="portfolio-btn btn">Додатки</button>
+                    <li class="portfolio-item-btn"><button type="button" class="portfolio-btn">Додатки</button>
                     </li>
-                    <li class="portfolio-item-btn"><button type="button" class="portfolio-btn btn">Дизайн</button>
+                    <li class="portfolio-item-btn"><button type="button" class="portfolio-btn">Дизайн</button>
                     </li>
-                    <li class="portfolio-item-btn"><button type="button" class="portfolio-btn btn">Маркетинг</button>
+                    <li class="portfolio-item-btn"><button type="button" class="portfolio-btn">Маркетинг</button>
                     </li>
                 </ul>
                 <ul class="portfolio-list list">
@@ -203,7 +203,8 @@
     </main>
     <footer class="footer__section">
         <div class="container footer">
-            <div><a href="/index.html" lang="en" class="logo ">Web<span class="logo-item">Studio</span></a>
+            <div class="footer-address"><a href="/index.html" lang="en" class="logo ">Web<span
+                        class="logo-item">Studio</span></a>
                 <address class="address">
                     <ul class="address-list list">
                         <li><a href="https://goo.gl/maps/dYqVJewLPmUxZWQF8" class="address-link">м. Київ, пр-т Лесі
@@ -234,6 +235,18 @@
                                 <use href="./images/icons.svg#icon-linkedin"></use>
                             </svg></a></li>
                 </ul>
+            </div>
+            <div class="footer-online">
+                <h3 class="footer-soc-title">Підпишіться на розсилку</h3>
+                <form class="online-form">
+                    <input type="email" name="online-email" class="online-input" placeholder="E-mail">
+                    <button type="submit" class="footer-btn">Підписатися
+                        <svg class="online-icon" width="24px" height="24px">
+                            <use href="./images/icons.svg#icon-icon-send"></use>
+                        </svg>
+                    </button>
+
+                </form>
             </div>
         </div>
     </footer>

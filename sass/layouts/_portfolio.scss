@@ -48,7 +48,7 @@
   font-style: normal;
   color: #757575;
   text-decoration: none;
-  @include font(null, 16, 1.88);
+  @include font(400, 16, 1.88);
   // font-size: 16px;
   // line-height: 1.88;
   // letter-spacing: 0.03em;
@@ -92,7 +92,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  @include font(null, 18, 1.56);
+  @include font(400, 18, 1.56);
   color: var(--primary-white-color);
   background-color: rgba(33, 150, 243, 0.9);
   padding: 24px 63px;
