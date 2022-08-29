@@ -77,6 +77,10 @@
 .portfolio-item {
   width: calc((100% - 90px) / 3);
   margin: 15px;
+  &:hover & {
+    transform: translateY(0);
+    overflow: auto;
+  }
 }
 .filter-card {
   position: relative;
@@ -101,8 +105,4 @@
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  .portfolio-item:hover & {
-    transform: translateY(0);
-    overflow: auto;
-  }
 }
