@@ -621,10 +621,6 @@ img {
   width: calc((100% - 90px) / 3);
   margin: 15px;
 }
-.portfolio-item:hover .portfolio-item {
-  transform: translateY(0);
-  overflow: auto;
-}
 
 .filter-card {
   position: relative;
@@ -653,6 +649,10 @@ img {
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-item:hover .filter-card-text {
+  transform: translateY(0);
+  overflow: auto;
 }
 
 .backdrop {
